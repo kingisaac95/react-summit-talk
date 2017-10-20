@@ -1,0 +1,113 @@
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  min-height: 100%;
+}
+
+nav.navbar {
+  background-color: #ffffff;
+}
+
+.navbar-brand {
+  padding: 10px 15px;
+}
+
+.user-name-and-icon {
+  margin: 10px 25px;
+}
+
+.user-name-and-icon > a {
+  text-decoration: none;
+  color: #337ab7;
+  margin: 10px;
+}
+
+.form-control.login {
+  padding: 20px;
+  background-color: #F2F2F2;
+}
+
+.form-control.search, button.search, button.search:hover {
+  border-style: none;
+  background-color: #F2F2F2;
+}
+
+.form-control.login:focus {
+  outline: none;
+}
+
+input[type=email], input[type=text], input[type=password] {
+  border-style: none;
+}
+
+input[type=email]:focus, input[type=text]:focus, input[type=password]:focus {
+  box-shadow: none;
+}
+
+.dashboard {
+  background-color: #f8f8f8;
+  padding-bottom: 60px;
+}
+
+.side-bar, .course-details, .single-course {
+  background-color: #ffffff;
+  box-shadow: 0 2px 3px 0 rgba(0,0,0,0.2);
+}
+
+.side-bar, .course-details, .course-banner, .single-course {
+  border-radius: 5px;
+}
+
+.side-bar {
+  padding: 40px 20px;
+}
+
+.nav-pills>li>a, .nav-pills>li>a:focus, .nav-pills>li>a:hover {
+  background-color: #337ab7;
+  border-radius: 0;
+  color: #ffffff;
+}
+
+.nav-item {
+  margin: 5px 10px;
+}
+
+a>i.not-active, span.not-active {
+  color: #ffffff;
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  color: #ffffff;
+}
+
+.searchTerm, .glyphicon-search {
+  color: #337ab7;
+}
+
+.space-10 {
+  margin: 20px;
+}
+
+.image-album {
+  margin-top: 20px;
+}
+
+.image-wrapper {
+  height: 350px;
+  width: 420px;
+}
+
+.image-wrapper > img {
+  height: 100%;
+  width: 100%;
+}
