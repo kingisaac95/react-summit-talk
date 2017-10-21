@@ -13,7 +13,7 @@ export const ComponentBased = () => {
         <p>Use case: Page Footer</p>
         <pre>
           {`
-            import React froda-m 'react';
+            import React from 'react';
 
             function getCurrentYear () {
               return new Date().getFullYear();
